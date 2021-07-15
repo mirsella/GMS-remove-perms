@@ -1,0 +1,204 @@
+com.android.vending.appdiscoveryservice.permission.ACCESS_APP_DISCOVERY_SERVICE: prot=normal
+com.android.vending.CHECK_LICENSE: prot=normal|instant
+com.android.vending.BILLING: prot=normal|instant
+com.android.vending.p2p.APP_INSTALL_API: prot=normal
+com.android.vending.permission.C2D_MESSAGE: prot=signature
+com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE: prot=signature
+com.android.vending.billing.BILLING_ACCOUNT_SERVICE: prot=signature|privileged
+com.android.vending.billing.ADD_CREDIT_CARD: prot=signature|privileged
+com.android.vending.TOS_ACKED: prot=signature|privileged
+com.google.android.finsky.permission.DSE: prot=normal
+com.android.vending.setup.PLAY_SETUP_SERVICE: prot=normal
+com.google.android.finsky.permission.GEARHEAD_SERVICE: prot=signature|privileged
+com.google.android.vending.verifier.ACCESS_VERIFIER: prot=signature
+com.google.android.finsky.permission.INSTANT_APP_STATE: prot=signature
+com.google.android.finsky.permission.ACCESS_INSTANT_APP_NOTIFICATION_ENFORCEMENT: prot=signature
+com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: prot=normal
+com.google.android.finsky.permission.INTERNAL_BROADCAST: prot=signature
+requested permissions:
+android.permission.READ_DEVICE_CONFIG
+android.permission.WRITE_DEVICE_CONFIG
+com.google.android.finsky.permission.DSE
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SEND_SMS: restricted=true
+android.permission.SEND_SMS_NO_CONFIRMATION
+android.permission.RECEIVE_SMS: restricted=true
+android.permission.READ_SMS: restricted=true
+com.android.vending.permission.C2D_MESSAGE
+com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.GET_TASKS
+android.permission.REAL_GET_TASKS
+android.permission.INTERNET
+android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+android.permission.READ_EXTERNAL_STORAGE: restricted=true
+android.permission.CLEAR_APP_CACHE
+android.permission.CHANGE_COMPONENT_ENABLED_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.READ_PRIVILEGED_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+com.google.android.providers.gsf.permission.READ_GSERVICES
+com.google.android.providers.gsf.permission.WRITE_GSERVICES
+android.permission.ACCESS_DOWNLOAD_MANAGER
+android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED
+android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS
+android.permission.INSTALL_PACKAGES
+android.permission.DELETE_PACKAGES
+android.permission.NFC
+com.android.vending.INTENT_VENDING_ONLY
+android.permission.RECEIVE_BOOT_COMPLETED
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.STATUS_BAR
+com.android.vending.TOS_ACKED
+android.permission.WAKE_LOCK
+android.permission.ACCESS_WIFI_STATE
+android.permission.USE_FINGERPRINT
+android.permission.USE_BIOMETRIC
+com.google.android.finsky.permission.INSTANT_APP_STATE
+android.permission.MANAGE_ACCOUNTS
+android.permission.AUTHENTICATE_ACCOUNTS
+android.permission.USE_CREDENTIALS
+android.permission.GET_ACCOUNTS_PRIVILEGED
+android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS
+android.permission.GRANT_RUNTIME_PERMISSIONS
+android.permission.REVOKE_RUNTIME_PERMISSIONS
+android.permission.PACKAGE_USAGE_STATS
+android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST
+android.permission.BATTERY_STATS
+android.permission.BACKUP
+android.permission.CONNECTIVITY_INTERNAL
+android.permission.DUMP
+android.permission.ALLOCATE_AGGRESSIVE
+android.permission.GET_APP_OPS_STATS
+android.permission.SET_PREFERRED_APPLICATIONS
+android.permission.ACCESS_INSTANT_APPS
+android.permission.UPDATE_DEVICE_STATS
+android.permission.MANAGE_APP_OPS_MODES
+android.permission.MANAGE_ROLLBACKS
+android.permission.PACKAGE_VERIFICATION_AGENT
+android.permission.SET_HARMFUL_APP_WARNINGS
+android.permission.MANAGE_USERS
+android.permission.INTERACT_ACROSS_USERS
+android.permission.WRITE_SETTINGS
+android.permission.WRITE_SECURE_SETTINGS
+android.permission.FORCE_STOP_PACKAGES
+android.permission.LOADER_USAGE_STATS
+com.google.android.gms.permission.CAR
+com.google.android.gms.permission.AD_ID_NOTIFICATION
+android.permission.GET_PACKAGE_SIZE
+com.google.android.gms.WRITE_VERIFY_APPS_CONSENT
+com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE
+com.google.android.partnersetup.permission.WRITE_APP_PROVIDER
+com.sec.android.provider.badge.permission.READ
+com.sec.android.provider.badge.permission.WRITE
+com.htc.launcher.permission.READ_SETTINGS
+com.htc.launcher.permission.UPDATE_SHORTCUT
+com.sonyericsson.home.permission.BROADCAST_BADGE
+com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+com.anddoes.launcher.permission.UPDATE_COUNT
+com.majeur.launcher.permission.UPDATE_BADGE
+com.huawei.android.launcher.permission.CHANGE_BADGE
+com.huawei.android.launcher.permission.READ_SETTINGS
+com.huawei.android.launcher.permission.WRITE_SETTINGS
+android.permission.READ_APP_BADGE
+com.oppo.launcher.permission.READ_SETTINGS
+com.oppo.launcher.permission.WRITE_SETTINGS
+org.chromium.arc.apkcacheprovider.permission.READ_CACHE
+org.chromium.arc.apkcacheprovider.permission.WRITE_CACHE
+android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME
+android.permission.READ_RUNTIME_PROFILES
+android.permission.FOREGROUND_SERVICE
+android.permission.REBOOT
+android.permission.START_ACTIVITIES_FROM_BACKGROUND
+android.permission.VIBRATE
+com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN
+android.permission.CHANGE_OVERLAY_PACKAGES
+android.permission.SEND_DEVICE_CUSTOMIZATION_READY
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_CONTACTS
+com.android.permission.USE_INSTALLER_V2
+android.permission.QUERY_ALL_PACKAGES
+com.google.android.finsky.permission.INTERNAL_BROADCAST
+install permissions:
+android.permission.REAL_GET_TASKS: granted=true
+android.permission.WRITE_SETTINGS: granted=true
+com.google.android.c2dm.permission.RECEIVE: granted=true
+android.permission.USE_CREDENTIALS: granted=true
+android.permission.GET_APP_OPS_STATS: granted=true
+com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+android.permission.READ_RUNTIME_PROFILES: granted=true
+android.permission.MANAGE_ACCOUNTS: granted=true
+android.permission.INSTALL_PACKAGES: granted=true
+android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+android.permission.NFC: granted=true
+android.permission.CHANGE_OVERLAY_PACKAGES: granted=true
+android.permission.SEND_DEVICE_CUSTOMIZATION_READY: granted=true
+android.permission.CHANGE_NETWORK_STATE: granted=true
+android.permission.FOREGROUND_SERVICE: granted=true
+com.google.android.providers.gsf.permission.WRITE_GSERVICES: granted=true
+android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+com.android.vending.permission.C2D_MESSAGE: granted=true
+com.google.android.gms.permission.AD_ID_NOTIFICATION: granted=true
+android.permission.GET_TASKS: granted=true
+android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+android.permission.INTERNET: granted=true
+com.android.vending.INTENT_VENDING_ONLY: granted=true
+android.permission.UPDATE_DEVICE_STATS: granted=true
+android.permission.WRITE_DEVICE_CONFIG: granted=true
+com.google.android.gms.WRITE_VERIFY_APPS_CONSENT: granted=true
+android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS: granted=true
+android.permission.ACCESS_INSTANT_APPS: granted=true
+android.permission.GET_PACKAGE_SIZE: granted=true
+com.google.android.partnersetup.permission.WRITE_APP_PROVIDER: granted=true
+android.permission.ALLOCATE_AGGRESSIVE: granted=true
+android.permission.BATTERY_STATS: granted=true
+android.permission.PACKAGE_USAGE_STATS: granted=true
+android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+android.permission.WRITE_SECURE_SETTINGS: granted=true
+com.android.vending.TOS_ACKED: granted=true
+com.google.android.finsky.permission.INSTANT_APP_STATE: granted=true
+android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+android.permission.ACCESS_DOWNLOAD_MANAGER: granted=true
+com.google.android.gms.permission.CAR: granted=true
+com.android.permission.USE_INSTALLER_V2: granted=true
+android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+android.permission.PACKAGE_VERIFICATION_AGENT: granted=true
+android.permission.REVOKE_RUNTIME_PERMISSIONS: granted=true
+android.permission.MANAGE_USERS: granted=true
+android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+android.permission.ACCESS_NETWORK_STATE: granted=true
+android.permission.BACKUP: granted=true
+android.permission.INTERACT_ACROSS_USERS: granted=true
+android.permission.MANAGE_ROLLBACKS: granted=true
+com.google.android.finsky.permission.DSE: granted=true
+android.permission.USE_FINGERPRINT: granted=true
+android.permission.REBOOT: granted=true
+android.permission.CLEAR_APP_CACHE: granted=true
+com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE: granted=true
+android.permission.GRANT_RUNTIME_PERMISSIONS: granted=true
+android.permission.CONNECTIVITY_INTERNAL: granted=true
+android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+android.permission.LOADER_USAGE_STATS: granted=true
+com.google.android.finsky.permission.INTERNAL_BROADCAST: granted=true
+android.permission.FORCE_STOP_PACKAGES: granted=true
+android.permission.VIBRATE: granted=true
+android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST: granted=true
+android.permission.ACCESS_WIFI_STATE: granted=true
+android.permission.USE_BIOMETRIC: granted=true
+android.permission.MANAGE_APP_OPS_MODES: granted=true
+com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+android.permission.STATUS_BAR: granted=true
+android.permission.QUERY_ALL_PACKAGES: granted=true
+android.permission.SEND_SMS_NO_CONFIRMATION: granted=true
+android.permission.DUMP: granted=true
+android.permission.READ_DEVICE_CONFIG: granted=true
+android.permission.WAKE_LOCK: granted=true
+android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED: granted=true
+com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN: granted=true
+android.permission.SET_HARMFUL_APP_WARNINGS: granted=true
+com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE: granted=true
+android.permission.DELETE_PACKAGES: granted=true
+User 0: ceDataInode=0 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+gids=[3003, 3007]
+runtime permissions:
